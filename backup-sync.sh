@@ -21,6 +21,6 @@ else
   git add .
   git commit -m "update config"
   git push origin master
-  echo "Pushed all changes"
+  echo "Pushed all changes!"
 fi
 
