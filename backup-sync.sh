@@ -13,10 +13,7 @@ echo "\nCopied dotfiles"
 cd ~/config-backup
 
 echo "Determining changes"
-git diff-index --quiet HEAD
-exit_status=$?
-echo $exit_status
-if [ $exit_status -eq 0 ]
+if [ -z "$(git status --porcelain)" ]
 then
   echo "No changes. Exiting!"
 else
