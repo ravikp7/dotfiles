@@ -14,7 +14,7 @@ cd ~/config-backup
 
 echo "Determining changes"
 git diff-index --quiet HEAD
-if [ $? == 0 ]
+if [ $? == 0 ];
 then
   echo "No changes. Exiting!"
 else
