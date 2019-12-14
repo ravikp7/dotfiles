@@ -8,7 +8,7 @@ echo "Copying files"
 echo "Dotfiles"
 cd ~
 cp -t ~/config-backup/dotfiles/ .vimrc .bashrc .tmux.conf .gitconfig
-echo "Copied dotfiles"
+echo "\nCopied dotfiles"
 
 cd ~/config-backup
 
