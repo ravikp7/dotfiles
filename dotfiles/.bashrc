@@ -1,6 +1,7 @@
 alias python=python3
 alias pip=pip3
-alias ls=ls -F --color=auto
+alias ls='ls -F --color=auto'
+alias vi='vim'
 # get current branch in git repo
 function parse_git_branch() {
 	BRANCH=`git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'`
