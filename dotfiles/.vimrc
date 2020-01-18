@@ -1,7 +1,6 @@
-" Map Colemak keys to QWERTY keys (in alphabetical order).
+" Map Colemak keys as per requirement
 noremap e k
 noremap f e
-noremap g t
 noremap i l
 noremap j y
 noremap k n
@@ -15,7 +14,6 @@ noremap u i
 
 noremap E K
 noremap F E
-noremap G T
 noremap I L
 noremap J Y
 noremap K N
