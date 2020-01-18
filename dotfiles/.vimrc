@@ -1,3 +1,11 @@
+set autoindent
+set expandtab
+
+set tabstop=2
+set sw=2
+
+set noswapfile
+
 " Map Colemak keys as per requirement
 noremap e k
 noremap f e
@@ -25,5 +33,4 @@ noremap S D
 noremap T F
 noremap U I
 
-" Set Tab to 2 spaces
-set sts=2
+
