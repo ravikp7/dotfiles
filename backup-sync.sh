@@ -7,7 +7,7 @@ git pull origin master
 echo "Copying files"
 echo " - Dotfiles"
 cd ~
-cp -t ~/config-backup/dotfiles/ .vimrc .bashrc .tmux.conf .gitconfig
+cp -t ~/config-backup/dotfiles/ .vimrc .bashrc .inputrc .xmodmap .tmux.conf .gitconfig
 echo "\nCopied dotfiles"
 
 cd ~/config-backup
