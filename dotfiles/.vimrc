@@ -34,3 +34,12 @@ noremap T F
 noremap U I
 
 
+" Plugins will be downloaded under the specified directory.
+call plug#begin('~/.vim/plugged')
+
+" Declare the list of plugins.
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+
+" List ends here.
+call plug#end()
+
