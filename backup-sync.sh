@@ -10,7 +10,7 @@ cd ~
 cp -t ~/dotfiles/dotfiles .vimrc .bashrc .inputrc .xmodmap .tmux.conf .gitconfig
 echo "\nCopied dotfiles"
 
-cd ~/config-backup
+cd ~/dotfiles
 
 echo "Determining changes"
 if [ -z "$(git status --porcelain)" ]
